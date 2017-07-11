@@ -1,0 +1,307 @@
+#wrap{
+
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	left:0px;
+	
+}
+
+
+.fixed-header 
+{
+	width:100%;
+	height: 105px;
+	background: #FFFFFF;
+	top: 0px;
+	left: 0px;
+	position:fixed;
+	z-index:10;
+}
+
+.page-title {
+
+	font-family: 'Helvetica';
+	font-size:50px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 0px
+
+}
+
+.sub-title
+{
+	font-family: 'Helvetica';
+	font-size:20px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 5px
+}
+
+.nav {
+
+	width: 100%;
+    height: 100%;
+	font-family: Sans-Serif;
+	font-size:18px;
+	letter-spacing: 3px;
+	text-align: center
+
+}
+
+.underline:hover {
+
+	text-decoration: underline;
+
+}
+
+nav a {
+
+	text-decoration: none;
+	color: black;
+
+}
+
+.gallery-video {
+
+	background: #ffffff;
+	margin-top:105px;
+	max-width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	z-index: 5;
+	height:100%;
+	margin-bottom:32px;
+
+}
+
+
+.video-vimeo {
+
+	height: 0;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	overflow: hidden;
+	margin:1%;
+	position: relative;
+
+	font-family: Sans-Serif;
+	font-size:13px;
+	font-weight:bold;
+	letter-spacing: 1px;
+	text-align: center;
+
+}
+
+.video-vimeo iframe, 
+.video-vimeo object,
+.video-vimeo embed {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+@media (min-width: 641px) {
+
+	.video-vimeo {
+		float:left;
+		padding-bottom: 27%;
+		width: 48%;
+	
+	}
+
+}
+
+@media (min-width:1025px) {
+	
+	.video-vimeo {
+		padding-bottom:17.56%;
+		width:31.33%;
+
+	}
+
+}
+
+.gallery-works {
+
+	background: #ffffff;
+	margin-top:105px;
+	max-width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+	z-index: 5;
+	height:100%;
+	margin-bottom:32px;
+
+}
+
+.works 
+{
+	height: 0;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	overflow: hidden;
+	margin:1%;
+	position: relative;
+
+	font-family: Sans-Serif;
+	font-size:13px;
+	font-weight:bold;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.works iframe, 
+.works object,
+.works embed {
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+.works img 
+{
+	position:absolute ;
+	top: 0;
+	left: 0;
+	width: 100%;
+    height: 100%;
+}
+
+.works-image
+{
+div 
+{ 
+	height: 300px; 
+	width: 300px; 
+	overflow: hidden; 
+}
+img 
+{ 
+	height: 300px; 
+} 
+}
+
+@media (min-width: 641px) {
+
+	.works {
+		float:left;
+		padding-bottom: 27%;
+		width: 48%;
+	}
+
+}
+
+@media (min-width:1025px) {
+	
+	.works {
+		padding-bottom:17.56%;
+		width:31.33%;
+	}
+
+}
+
+.gallery-workdetail {
+
+	max-width:1200px;
+	margin-top: 100px;
+	margin-left:auto;
+	margin-right:auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.work-description
+{
+	float: right;
+	max-width:400px;
+	margin-top: 0px;
+	font-family: Sans-Serif;
+	font-size:13px;
+	font-weight:bold;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+.title
+{
+	font-size:18px;
+}
+
+
+.subtitle
+{
+	font-size:18px;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.work-image
+{
+	float: left;
+	margin-top: 16px;
+}
+
+.gallery-about {
+
+	max-width:1200px;
+	margin-top: 190px;
+	margin-left:auto;
+	margin-right:auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.bio 
+{
+	max-width:600px;
+	margin-top: -73px;
+	font-family: Sans-Serif;
+	font-size:13px;
+	font-weight:bold;
+	letter-spacing: 1px;
+	text-align: left;
+}
+
+.bio-image
+{
+	text-align: center;
+}
+
+.fixed-footer {
+
+	height: 36px;
+	background: #FFFFFF;
+	width:100%;
+	bottom: 0px;
+	left: 0px;
+	position:fixed;
+
+}
+
+.footer {
+
+	font-family: Sans-Serif;
+	font-size:12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	width:100%;
+	text-align: center;
+
+}
