@@ -281,6 +281,13 @@ img
 	text-align: left;
 }
 
+.bio a {
+
+	text-decoration: none;
+	color: black;
+
+}
+
 .bio-image
 {
 	text-align: center;
