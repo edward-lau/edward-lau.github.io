@@ -259,8 +259,8 @@ img
 	margin-top: 16px;
 }
 
-.gallery-about {
-
+.gallery-about 
+{
 	max-width:1200px;
 	margin-top: 190px;
 	margin-left:auto;
@@ -286,15 +286,26 @@ img
 	text-align: center;
 }
 
-.fixed-footer {
+.cv
+{
+	max-width:800px;
+	height: 700px;
+	margin-top: 130px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
 
+.fixed-footer 
+{
 	height: 36px;
-	background: #FFFFFF;
 	width:100%;
 	bottom: 0px;
-	left: 0px;
+	right: 10px;
 	position:fixed;
-
 }
 
 .footer {
@@ -304,6 +315,5 @@ img
 	font-weight: bold;
 	letter-spacing: 1px;
 	width:100%;
-	text-align: center;
-
+	text-align: right;
 }
