@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Edward Lau | Granulator</title>
+		<link href="main.css" rel="stylesheet" type="text/css" />
+		<meta charset="UTF-8">
+	</head>
+
+	<body>
+	<div class="wrap">
+		<div class="fixed-header">
+			<h1 class="page-title">Edward Lau</h1>
+			<h1 class="sub-title">Audio Programmer &amp Sound Designer</h1>
+			<div class="header">
+		  		<nav class="nav">
+					<span class="underline"><a href="index.html">Works</a></span> |
+					<span class="underline"><a href="cv.html">CV</a></span> |
+					<span class="underline"><a href="about.html">About</a></span>
+		    	</nav>
+		 	</div>
+		</div>
+
+		<div class="gallery-workdetail">
+			
+			<div class = "work-description">
+				<div class = "title"> <p>Granulator</p> </div>
+				<p>
+				Designed and programmed a granular delay plugin in C++ using the JUCE framework. 
+				</p>
+				<p>
+				A real-time granular synthesis effect that chops up the input signal into tiny grains. User has access to settings that affect the buffer read position, pitch, duration, panning and volume of individual grains. The buffer can be frozen at any time.
+				</p>
+				<div class = "subtitle"> <p>Release: Sometime 2017 </p> </div>
+         	</div>
+
+         	<div class="work-image">
+			<img src = "images/ngns.png">
+			</div>
+
+		</div>
+	</div>
+
+		<div class="fixed-footer">
+			<div class="footer">
+			<p>© Edward Lau 2017</p>
+			</div>
+		</div>
+
+	</body>
+
+
+</html>
